@@ -1,0 +1,15 @@
+gsap.from("#page2 h1",{
+    x:600,
+    duration:2,
+    delay:1,
+    scrollTrigger:{
+        trigger:"#page2",
+        scroller:"body",
+        markers:true,
+        scrub:2,
+        start:"top 0%",
+        end:"top -100%",
+        pin:true
+
+    }
+})
